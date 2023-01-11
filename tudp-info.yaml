@@ -8,7 +8,7 @@ metadata:
 spec:
   targets:
     - ./components/amjs-test/amjs-test.yaml
-    - ./components/amjs-test-api-app.yaml
+    - ./components/amjs-test-api-app/amjs-test-api-app.yaml
     - ./groups/org.yaml
     - ./systems/amjs-test-space.yaml
     - ./resources/amjs-test-inst.yaml
