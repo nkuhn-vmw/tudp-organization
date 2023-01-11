@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: yelb-catalog-info
+  description: A sample catalog for the yelb application
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  targets:
+    - ./components/amjs-test/amjs-test.yaml
+    - ./components/amjs-test-api-app.yaml
+    - ./groups/org.yaml
+    - ./systems/amjs-test-space.yaml
+    - ./resources/amjs-test-inst.yaml
+    - ./domains/tanzu-unified-dev-portal.yaml

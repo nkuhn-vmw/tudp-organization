@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: tanzu-unified-dev-portal
+  description: Everything related to TUDP
+  links:
+    - url: http://example.com/domain/tudp/
+      title: Domain Readme
+    - url: http://example.com/domains/tudp/dashboard
+      title: Cloud Apps Dashboard
+      icon: dashboard
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: tas-dev-ex

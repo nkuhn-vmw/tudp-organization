@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: amjs-test-space
+  description: amjs test space
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: tas-dev-ex
+  domain: tanzu-unified-dev-portal

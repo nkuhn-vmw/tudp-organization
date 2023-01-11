@@ -1,0 +1,7 @@
+site_name: 'Tanzu Unified Dev Portal'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core

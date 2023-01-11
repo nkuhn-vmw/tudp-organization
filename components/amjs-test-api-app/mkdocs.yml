@@ -1,0 +1,7 @@
+site_name: 'amjs-test-api-app'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
