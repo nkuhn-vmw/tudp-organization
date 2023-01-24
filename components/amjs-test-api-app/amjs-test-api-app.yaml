@@ -8,6 +8,8 @@ metadata:
   annotations:
     'backstage.io/kubernetes-label-selector': 'app=amjs-test-api-app,tier=middletier'
     'backstage.io/techdocs-ref': dir:.
+  tas:
+    entity-guid: c00fdbdc-940b-4b11-ba94-20fb72b08ac9
 spec:
   type: service
   lifecycle: experimental
