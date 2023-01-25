@@ -5,6 +5,8 @@ metadata:
   description: AMJS Test App Instance
   annotations:
     'backstage.io/techdocs-ref': dir:.
+  tas:
+    entity-guid: 2f0929f4-32f1-4eb3-922a-47650c1490ec
 spec:
   type: Instance
   owner: tas-dev-ex
