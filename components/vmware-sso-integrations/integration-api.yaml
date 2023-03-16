@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: integration-api
+  description: Integrations API
+  tags:
+    - javascript
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app=integrations-api'
+    'backstage.io/techdocs-ref': dir:.
+  links:
+    - url: https://yelb-ui.example.com
+      title: 'amjs test information'
+      icon: locallibrary
+spec:
+  type: service
+  lifecycle: experimental
+  owner: tas-dev-ex
+  system: vmware-sso-integrations

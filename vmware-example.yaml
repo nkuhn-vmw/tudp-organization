@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: vmware-example
+  description: A sample catalog for the TAS Portal
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  targets:
+    - ./components/vmware-sso-integrations/integration-api.yaml
+    - ./components/vmware-sso-integrations/integration-tasks.yaml
+    - ./components/vmware-sso-core/core-api.yaml
+    - ./components/vmware-sso-core/core-web.yaml
+    - ./components/apps-manager/apps-westmorland.yaml
+    - ./components/apps-manager/apps-lakewood.yaml
+    - ./groups/org.yaml
+    - ./systems/amjs-test-space.yaml

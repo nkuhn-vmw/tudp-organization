@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: core-api
+  description: Core API
+  tags:
+    - javascript
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app=core-api'
+    'backstage.io/techdocs-ref': dir:.
+  links:
+    - url: https://core-api.apps.westmorland.cf-app.com/api-docs/
+      title: 'VMWare SSO Core API Docs'
+      icon: locallibrary
+spec:
+  type: service
+  lifecycle: experimental
+  owner: tas-dev-ex
+  system: vmware-sso-core

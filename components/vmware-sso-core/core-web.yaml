@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: core-web
+  description: Core Web App
+  tags:
+    - javascript
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app=core-web'
+    'backstage.io/techdocs-ref': dir:.
+  links:
+    - url: https://yelb-ui.example.com
+      title: 'amjs test information'
+      icon: locallibrary
+spec:
+  type: service
+  lifecycle: experimental
+  owner: tas-dev-ex
+  system: vmware-sso-core
+  dependsOn: [Component:core-api]
+  consumesApis: [Component:core-api]

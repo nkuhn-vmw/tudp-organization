@@ -1,4 +1,4 @@
-site_name: 'amjs-test-api-app'
+site_name: 'integration-api'
 
 nav:
   - Home: index.md
