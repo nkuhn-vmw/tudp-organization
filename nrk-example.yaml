@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: vmware-example
+  description: A sample catalog for the TAS Portal
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  targets:
+    - ./components/kuhn-labs/node-express-tas.yaml
+    - ./components/apps-manager/apps-kuhn-labs.yaml
+    - ./groups/org.yaml
+    - ./systems/amjs-test-space.yaml

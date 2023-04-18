@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: westmorland-test
+  description: TAS-KDC Apps Manager
+  tags:
+    - javascript
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'foundation=westmorland'
+    'backstage.io/techdocs-ref': dir:.
+  links:
+    - url: https://apps.sys.tas-kdc.kuhn-labs.com/
+      title: 'TAS-KDC Apps Manager'
+      icon: locallibrary
+spec:
+  type: service
+  lifecycle: experimental
+  owner: tas-dev-ex
+  system: kuhn-labs

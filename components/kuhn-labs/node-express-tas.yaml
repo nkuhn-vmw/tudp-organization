@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: node-express-tas
+  description: Sample Node Express App built from TAS App Accelerators 
+  tags:
+    - javascript
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app=node-express-tas'
+    'backstage.io/techdocs-ref': dir:.
+  links:
+    - url: https://yelb-ui.example.com
+      title: 'node-express-tas test information'
+      icon: locallibrary
+spec:
+  type: service
+  lifecycle: experimental
+  owner: tas-dev-ex
+  system: kuhn-labs
